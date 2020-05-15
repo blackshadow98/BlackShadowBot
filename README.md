@@ -1,4 +1,4 @@
-# BlackShadow
+# Black Shadow
 
 For any query or want to know how it works join
 ## https://t.me/iaminnocentyaar
