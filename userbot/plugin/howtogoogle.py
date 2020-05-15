@@ -2,7 +2,7 @@
 """
 Animate How To Google
 Command .ggl Search Query
-By @loxxi
+By @iaminnocentyaar
 """
 
 from telethon import events

@@ -1,7 +1,7 @@
 # BY @Deonnn
 """
 Game of Thrones Thoughts plugin
-by @Deonnn
+by @iaminnocentyaar
 command .gott
 
 """
