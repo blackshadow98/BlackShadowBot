@@ -1,6 +1,6 @@
 #if u steal credits u wil be the gayest gay in the world. i will fban u from 100 feds and u will leave tg
 """
-Pulls Up A Random string created by Indian Bhai.
+Pulls Up A Random string created by BlackShadow.
 cmd: .hp
     full credits : @iaminnocentyaar
 """

@@ -35,7 +35,7 @@ async def _(event):
               await borg.send_file(event.chat_id, audio, caption="🔰**TO BOSS : **" + naam +"\n`Check out` [BlackShadowBot](https://github.com/blackshadow98/BlackShadowBot)")
               await event.delete()
           except YouBlockedUserError:
-              await event.edit("**Error:** `unblock` @backshadowbot `and retry!")
+              await event.edit("**Error:** `unblock` @BlackShadowBot `and retry!")
     elif sysarg == "ss":
       async with borg.conversation(bot) as conv:
           try:
@@ -46,7 +46,7 @@ async def _(event):
               await borg.send_file(event.chat_id, audio, caption="**CREDITS : Dr.BlueDevil**\n`Check out` [BlackShadowBot](https://github.com/blackshadow98/BlackShadowBot)")
               await event.delete()
           except YouBlockedUserError:
-              await event.edit("**Error:** `unblock` @backshadowbot `and retry!`")
+              await event.edit("**Error:** `unblock` @BlackShadowBot `and retry!`")
     elif sysarg == "--h":
       async with borg.conversation(bot) as conv:
           try:
@@ -57,7 +57,7 @@ async def _(event):
               await borg.send_file(event.chat_id, audio, caption="**Dr.Bot Is Here To Help**\n`Check out` [BlackShadowBot](https://github.com/blackshadow98/BlackShadowBot)")
               await event.delete()
           except YouBlockedUserError:
-              await event.edit("**Error:** `unblock` @backshadowbot `and retry!`")
+              await event.edit("**Error:** `unblock` @BlackShadowBot `and retry!`")
     elif sysarg == "npic":
       async with borg.conversation(bot) as conv:
           try:
@@ -68,7 +68,7 @@ async def _(event):
               await borg.send_file(event.chat_id, audio, caption="**For" + naam +" **\n`Check out` [BlackShadowBot](https://github.com/blackshadow98/BlackShadowBot)")
               await event.delete()
           except YouBlockedUserError:
-              await event.edit("**Error:** `unblock` @backshadowbot `and retry!`")
+              await event.edit("**Error:** `unblock` @BlackShadowBot `and retry!`")
     elif sysarg == "rs":
       async with borg.conversation(bot) as conv:
           try:
@@ -79,7 +79,7 @@ async def _(event):
               await borg.send_file(event.chat_id, audio, caption="**CREDITS : Dr.BlueDevil**\n`Check out` [BlackShadowBot](https://github.com/blackshadow98/BlackShadowBot)")
               await event.delete()
           except YouBlockedUserError:
-              await event.edit("**Error:** `unblock` @indianaibot `and retry!`")
+              await event.edit("**Error:** `unblock` @BlackShadowBot `and retry!`")
     elif sysarg == "ib":
       async with borg.conversation(bot) as conv:
           try:
@@ -90,7 +90,7 @@ async def _(event):
               await borg.send_file(event.chat_id, audio, caption="**CREDITS : Dr.BlueDevil**\n`Check out` [BlackShadowBot](https://github.com/blackshadow98/BlackShadowBot)")
               await event.delete()
           except YouBlockedUserError:
-              await event.edit("**Error:** `unblock` @indianaibot `and retry!`")
+              await event.edit("**Error:** `unblock` @BlackShadowBot `and retry!`")
     else:
       await brog.send_message(event.chat_id, "**INVALID** -- FOR HELP COMMAND IS **.jav --h**")
       await event.delete()
